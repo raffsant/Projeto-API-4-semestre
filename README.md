@@ -73,24 +73,38 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 
 
 ## Sprint 1
-- [✓] Desenvolver um dashboard em Power BI para visualização dos dados.
-- [✓] Implementar métodos de transporte em Excel para análise inicial.
-- [✓] Iniciar o nivelamento técnico da equipe em Python, SQL, Excel e Power BI.
+- [ ] Baixar e tratar dados da ANTAQ (limpeza, normalização e remoção de duplicados/nulos).  
+- [ ] Calcular tempos médios de operação portuária.  
+- [ ] Criar dashboard inicial no Power BI com visão geral de portos, cargas e operações.  
+- [ ] Incluir filtros (período e tipo de carga) e ranking de eficiência dos portos.  
+- [ ] Ajustar layout para diferentes dispositivos (notebook, tablet e celular).  
+- [ ] Validar visualizações com stakeholders e comparar desempenho mensal dos portos.  
+
 
 ## Sprint 2
-- [✓] Realizar uma análise profunda dos dados.
-- [✓] Gerar os primeiros insights da equipe.
-- [✓] Criar relatório sobre valores CIF/FOB.
-- [✓] Maximizar viagens e volumes dos caminhões.
-- [✓] Analisar distância e valores dos fretes.
-- [✓] Identificar veículos com carga máxima.
-- [✓] Avaliar a frequência de viagens.
+- [ ] Destacar indicadores de eficiência como base para gestão estratégica.  
+- [ ] Mapear tendências de movimentação de cargas ao longo do ano para apoiar planejamento.  
+- [ ] Identificar operações com maiores tempos de espera para reduzir atrasos e custos.  
+- [ ] Manter dashboards gerais de portos, cargas e operações para monitorar performance.  
+- [ ] Documentar metodologia aplicada em processos e análises.  
+- [ ] Registrar análises exploratórias em relatório para manter histórico de estudos.  
+- [ ] Anexar códigos e capturas de dashboards para documentação completa.  
+- [ ] Estruturar repositório no GitHub para versionar scripts e bases de dados.  
+- [ ] Atualizar repositório com códigos revisados e comentados.  
+- [ ] Criar issues no Jira para registrar demandas e feedbacks de clientes.  
+- [ ] Revisar repositório e organizar releases finais para entrega oficial.  
+
 
 ## Sprint 3
-- [✓] Desenvolver um modelo de otimização das rotas.
-- [✓] Implementar backend e frontend para o sistema.
-- [✓] Otimizar processos com base nos dados analisados.
-- [✓] Gerar relatório final com tudo o que foi feito e analisado.
+- [ ] Calcular métricas-chave e acompanhar evolução de indicadores para identificar tendências.  
+- [ ] Criar painéis comparativos entre portos e operações para apoiar decisões gerenciais.  
+- [ ] Revisar dashboards finais e coletar feedback para ajustes antes da entrega.  
+- [ ] Registrar insights estratégicos obtidos nas análises para uso futuro.  
+- [ ] Finalizar relatórios técnicos com gráficos e dashboards para entrega à banca.  
+- [ ] Preparar slides de apresentação inicial.  
+- [ ] Montar apresentações finais para a feira de soluções.   
+- [ ] Acompanhamento para garantir que a equipe esteja preparada.  
+- [ ] Organizar o Jira e documentar histórico para controle da equipe.  
 
 # Registro das Sprints
 
