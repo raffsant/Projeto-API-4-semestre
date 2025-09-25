@@ -7,7 +7,7 @@
   
 # Aprendizado por Projeto Integrador
 
-O Projeto Integrador (API) oferece uma experiência prática na resolução de problemas logísticos reais. Dividido em quatro Sprints, o projeto utiliza a metodologia ágil SCRUM para criar um banco de dados SQL, desenvolver dashboards em Power BI e otimizar rotas de transporte. Utilizando ferramentas como Python, SQL, Excel e Power BI, o foco é analisar dados logísticos para melhorar a distribuição e reduzir custos, aplicando conceitos e habilidades adquiridas no curso.
+O Projeto Integrador (API) oferece uma experiência prática na resolução de problemas logísticos reais, aplicando a metodologia ágil SCRUM em 3 Sprints. O foco é o desenvolvimento de uma plataforma de Business Intelligence (BI) para monitorar e analisar a eficiência portuária nos portos brasileiros, utilizando dados estatísticos da ANTAQ e informações sobre tempos de processamento e operações.
 
 # Índice
 * [Projeto](#projeto-template)
@@ -17,9 +17,6 @@ O Projeto Integrador (API) oferece uma experiência prática na resolução de p
 * [Sprints](#sprints)
 * [Backlog do Produto](#backlog-do-produto)
 * [Registro das Sprints](#registro-das-sprints)
-
-# Projeto (API)
-O projeto, baseado na metodologia Ágil Scrum, tem como objetivo analisar a eficiência das rotas em uma empresa embarcadora, visando aprimorar a distribuição e reduzir custos logísticos. A demanda do parceiro acadêmico consiste na criação de um dashboard para análise de dados logísticos, utilizando SQL, Python, Power BI e Excel. O objetivo é oferecer visibilidade sobre volume, valores e rotas, além de contribuir para um centro moderno, melhorando processos e a frequência das entregas.
 
 # Equipe 👨‍💻
 |    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
@@ -31,14 +28,24 @@ O projeto, baseado na metodologia Ágil Scrum, tem como objetivo analisar a efic
 
 
 # Objetivo do Projeto 🎯
-O objetivo deste projeto é desenvolver uma solução integrada para otimizar processos logísticos, utilizando tecnologias como SQL, Python, Power BI e Excel. Ao longo de 4 Sprints, serão criados bancos de dados, dashboards interativos e relatórios detalhados para análise de volumes, valores, rotas e fretes. O projeto também incluirá a implementação de um modelo de otimização de rotas, visando maximizar a eficiência dos caminhões e reduzir custos operacionais. A capacitação em ferramentas técnicas garantirá a entrega de um produto completo e alinhado com as necessidades do projeto. O foco é aprimorar as rotas de três unidades de uma empresa, aplicando métodos de pesquisa operacional para melhorar a eficiência logística e reduzir custos e tempo de transporte.
+Criar uma plataforma de Business Intelligence (BI) voltada ao acompanhamento da eficiência portuária nos portos brasileiros, utilizando como base os dados estatísticos da ANTAQ e os tempos de processamento das operações.
+
+O sistema deverá possibilitar:
+
+Comparar o desempenho dos terminais portuários;
+
+Mapear os principais fatores que geram paradas ou atrasos;
+
+Mensurar e analisar os tempos médios de execução das atividades;
+
+Disponibilizar painéis visuais interativos que ofereçam insights estratégicos para a tomada de decisão.
 
 ## Tecnologias Utilizadas 🗃️
 
-- **SQL**: Para gerenciamento e consulta de bancos de dados.
-- **Python**: Para automação, análise de dados e integração com APIs.
+- **Google Colab**: Para gerenciamento e consulta de bancos de dados.
+- **GitHub**: Para automação, análise de dados e integração com APIs.
 - **Power BI**: Para criação de dashboards e visualização de dados.
-- **Excel**: Para análise e organização de dados.
+- **Python e DAX**: Para análise e organização de dados.
 - **GitHub**: Para versionamento e colaboração no projeto.
 - **Metodologia Ágil (SCRUM)**: Para gerenciamento do projeto.
 - **Ferramentas de Colaboração**: Slack e Jira.
@@ -49,19 +56,18 @@ O objetivo deste projeto é desenvolver uma solução integrada para otimizar pr
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
 |------|------------|------------|------------|--------|
-| 1 | 🔥 Alta | **Como consultor**, quero implementar uma análise automatizada dos dados do cliente **para identificar e corrigir inconsistências críticas antes do processamento**. | 8 | 1 |
-| 2 | ⭐ Média | **Como consultor**, quero configurar repositórios no GitHub e projetos no JIRA **para organizar e rastrear todas as atividades da equipe**. | 5 | 1 |
-| 3 | ⭐ Média | **Como consultor**, quero desenvolver dashboards no Power BI **para monitorar erros em Incoterms e prazos de entrega com atualização diária**. | 8 | 1 |
-| 4 | 📉 Baixa | **Como consultor**, quero gerar relatórios de sazonalidade **para visualizar a distribuição mensal de inconsistências nos dados**. | 5 | 1 |
-| 5 | ⭐ Média | **Como consultor**, quero comparar versões dos dados (antes/depois das correções) **para demonstrar o impacto operacional das inconsistências**. | 5 | 1 |
-| 6 | ⭐ Média | **Como consultor**, quero mapear todas as rotas de transporte **para analisar a relação entre distâncias, modais e custos associados**. | 8 | 2 |
-| 7 | 🔥 Alta | **Como consultor**, quero calcular o LEAD TIME completo do processo logístico **para entender os tempos por etapa (armazenagem, transporte, documentação) e subsidiar melhorias**, com visualização em gráficos temporais. | 12 | 2 |
-| 8 | ⭐ Média | **Como consultor**, quero avaliar oportunidades de consolidação de cargas **para propor ajustes na programação de entregas**. | 12 | 2 |
-| 9 | ⭐ Média | **Como consultor**, quero analisar a capacidade operacional da frota **para sugerir melhorias na alocação de veículos**. | 5 | 2 |
-| 10 | 🔥 Alta | **Como consultor**, quero mapear os principais custos logísticos **para identificar áreas com potencial de redução de despesas**. | 12 | 3 |
-| 11 | 🔥 Alta | **Como consultor**, quero realizar a análise de projeção de custos e performance para 2023-2025, utilizando Power BI para visualizar os dados, **para que eu possa fornecer insights claros sobre os futuros cenários e apoiar o planejamento estratégico**. | 8 | 3 |
-| 12 | 📉 Baixa | **Como consultor**, quero implementar uma revisão final da qualidade dos dados **para validar a precisão das análises realizadas**. | 5 | 3 |
-| 13 | 🔥 Alta | **Como consultor**, quero consolidar um relatório executivo completo **com: diagnóstico, ações tomadas, resultados alcançados e plano de otimização para 2025**, para embasar decisões estratégicas. | 20 | 4 |
+| 1 | 🔥 Alta | **Como analista de dados**, quero acessar, limpar e padronizar os dados da ANTAQ **para iniciar análise consistente da eficiência portuária**. | 6 | 1 |
+| 2 | 🔥 Alta | **Como analista de dados**, quero calcular métricas de operação portuária **para avaliar eficiência e identificar gargalos**. | 6 | 1 |
+| 3 | 🔥 Alta | **Como analista de dados**, quero criar dashboards no Power BI com filtros e rankings de portos **para apoiar decisões estratégicas**. | 10 | 1 |
+| 4 | ⭐ Média | **Como analista**, quero testar dashboards em diferentes dispositivos e ajustar layouts **para garantir responsividade**. | 6 | 1 |
+| 5 | ⭐ Média | **Como gestor**, quero acompanhar tempos médios e desempenho mensal dos portos **para planejar recursos e otimizar processos**. | 5 | 1 |
+| 6 | 🔥 Alta | **Como responsável por relatórios**, quero detalhar metodologia, glossário e análises **para documentar processos e decisões**. | 14 | 2 |
+| 7 | 🔥 Alta | **Como responsável por versionamento**, quero criar repositório, organizar branches e atualizar scripts **para controlar versões e pendências**. | 12 | 2 |
+| 8 | 🔥 Alta | **Como gestor**, quero coletar feedback e revisar entregas **para garantir qualidade antes da apresentação**. | 8 | 2 |
+| 9 | 🔥 Alta | **Como equipe de apresentações**, quero criar templates, slides iniciais, storyboard e slides finais **para preparar a apresentação oficial**. | 18 | 3 |
+| 10 | 🔥 Alta | **Como equipe de apresentações**, quero ensaiar apresentação e preparar roteiro **para garantir impacto e organização**. | 12 | 3 |
+| 11 | 🔥 Alta | **Como analista de dados**, quero calcular métricas extras, acompanhar evolução de indicadores e registrar insights **para apoiar decisões futuras**. | 12 | 3 |
+
 
 
 
@@ -90,10 +96,10 @@ O objetivo deste projeto é desenvolver uma solução integrada para otimizar pr
 
 | Sprint | Previsão | Status | Histórico |
 |--------|----------|--------|-----------|
-| 01     | 08/04/2025 | Concluído | [MVP](https://youtu.be/XUWFMktRAbQ) |
-| 02     | 22/04/2025 | Concluído | [MVP](https://) |
-| 03     | 13/05/2025 | Concluído | [MVP](https://) |
-| Feira de Soluções | 29/05/2025 | Concluído | [MVP](https://) |
+| 01     | 03/10/2025 | Em andamento | [MVP](https://) |
+| 02     | 24/10/2025 | A fazer | [MVP](https://) |
+| 03     | 14/11/2025 | A fazer | [MVP](https://) |
+| Feira de Soluções | 04/12/202 | A fazer | [MVP](https://) |
 
 
 
