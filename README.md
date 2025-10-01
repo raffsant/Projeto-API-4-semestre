@@ -48,7 +48,7 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 - **Python e DAX**: Para análise e organização de dados.
 - **GitHub**: Para versionamento e colaboração no projeto.
 - **Metodologia Ágil (SCRUM)**: Para gerenciamento do projeto.
-- **Ferramentas de Colaboração**: Slack e Jira.
+- **Ferramentas de Colaboração**: Whatsapp e Jira.
 
 
 
