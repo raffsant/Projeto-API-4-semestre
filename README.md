@@ -93,46 +93,41 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 
 
 
+## Sprint 1 - Coleta e Planejamento 🚀
+- [ ] Baixar e integrar dados de atracação e carga  
+- [ ] Filtrar registros relevantes para a análise  
+- [ ] Filtragem da carga de soja  
+- [ ] Limpar, normalizar e estruturar os dados  
+- [ ] Documentar código Python para uso futuro  
+- [ ] Publicar avanços no GitHub  
+- [ ] Gerar relatório  
 
+## Sprint 2 - Eficiência e tempos de operação ⚡
+- [ ] Avaliar produtividade dos terminais  
+- [ ] Criar ranking dos top 10 terminais  
+- [ ] Identificar tempo médio de operação por terminal  
+- [ ] Visualizar portos mais ágeis e portos com maior espera  
+- [ ] Movimentação mensal por terminal  
+- [ ] Volume de transporte por porto  
+- [ ] Identificar os principais portos que movimentam soja  
+- [ ] Gerar relatório  
 
-## Sprint 1
-- [ ] Baixar e tratar dados da ANTAQ (limpeza, normalização e remoção de duplicados/nulos).  
-- [ ] Calcular tempos médios de operação portuária.  
-- [ ] Criar dashboard inicial no Power BI com visão geral de portos, cargas e operações.  
-- [ ] Incluir filtros (período e tipo de carga) e ranking de eficiência dos portos.  
-- [ ] Validar visualizações com stakeholders e comparar desempenho mensal dos portos.  
+## Sprint 3 - Movimentação e Análise de Carga 📊
+- [ ] Calcular indicador de eficiência (infraestrutura x carga)  
+- [ ] Filtrar por terminal e período  
+- [ ] Implementar buscas e filtros personalizados  
+- [ ] Filtrar por terminal e tempo  
+- [ ] Visualizar ranking  
+- [ ] Desenvolver visualizações de eficiência portuária e operação  
+- [ ] Criar interface intuitiva  
+- [ ] Gerar relatório  
 
-
-## Sprint 2
-- [ ] Destacar indicadores de eficiência como base para gestão estratégica.  
-- [ ] Mapear tendências de movimentação de cargas ao longo do ano para apoiar planejamento.  
-- [ ] Identificar operações com maiores tempos de espera para reduzir atrasos e custos.  
-- [ ] Manter dashboards gerais de portos, cargas e operações para monitorar performance.  
-- [ ] Documentar metodologia aplicada em processos e análises.  
-- [ ] Registrar análises exploratórias em relatório para manter histórico de estudos.  
-- [ ] Anexar códigos e capturas de dashboards para documentação completa.  
-- [ ] Estruturar repositório no GitHub para versionar scripts e bases de dados.  
-- [ ] Atualizar repositório com códigos revisados e comentados.  
-- [ ] Criar issues no Jira para registrar demandas e feedbacks de clientes.  
-- [ ] Revisar repositório e organizar releases finais para entrega oficial.  
-
-
-## Sprint 3
-- [ ] Calcular métricas-chave e acompanhar evolução de indicadores para identificar tendências.  
-- [ ] Criar painéis comparativos entre portos e operações para apoiar decisões gerenciais.  
-- [ ] Revisar dashboards finais e coletar feedback para ajustes antes da entrega.  
-- [ ] Registrar insights estratégicos obtidos nas análises para uso futuro.  
-- [ ] Finalizar relatórios técnicos com gráficos e dashboards para entrega à banca.  
-- [ ] Preparar slides de apresentação inicial.  
-- [ ] Montar apresentações finais para a feira de soluções.   
-- [ ] Acompanhamento para garantir que a equipe esteja preparada.  
-- [ ] Organizar o Jira e documentar histórico para controle da equipe.  
 
 # Registro das Sprints
 
 | Sprint | Previsão | Status | Histórico |
 |--------|----------|--------|-----------|
-| 01     | 03/10/2025 | Em andamento | [MVP](https://) |
+| 01     | 02/10/2025 | Em andamento | [MVP](https://) |
 | 02     | 24/10/2025 | A fazer | [MVP](https://) |
 | 03     | 14/11/2025 | A fazer | [MVP](https://) |
 | Feira de Soluções | 04/12/202 | A fazer | [MVP](https://) |
