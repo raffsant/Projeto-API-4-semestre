@@ -57,8 +57,10 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 | Rank | Prioridade | User Story | Estimativa | Sprint |
 |------|------------|------------|------------|--------|
 | 1 | 🔥 Alta | **Como analista de dados**, quero acessar, limpar e padronizar os dados da ANTAQ **para iniciar análise consistente da eficiência portuária**. | 6 | 1 |
-| 2 | 🔥 Alta | **Como analista de dados**, quero calcular métricas de operação portuária **para avaliar eficiência e identificar gargalos**. | 6 | 1 |
-| 3 | 🔥 Alta | **Como analista de dados**, quero criar dashboards no Power BI com filtros e rankings de portos **para apoiar decisões estratégicas**. | 10 | 1 |
+| 2 | 🔥 Alta | **Como analista de dados, quero baixar e integrar dados de atracação e carga para consolidar informações relevantes da operação portuária.**. | 6 | 1 |
+| 3 | 🔥 Alta | *Como analista de dados, quero filtrar registros relevantes para a análise a fim de garantir que apenas dados úteis sejam utilizados.**. | 8 | 1 |
+| 4 | 🔥 Alta | **Como analista de dados**, quero criar dashboards no Power BI com filtros e rankings de portos **para apoiar decisões estratégicas**. | 10 | 1 |
+| 5| 🔥 Alta | **Como analista de dados, quero aplicar filtragem específica da carga de soja para realizar análises direcionadas sobre esse tipo de mercadoria.**. | 10 | 1 |
 | 4 | ⭐ Média | **Como analista**, quero testar dashboards em diferentes dispositivos e ajustar layouts **para garantir responsividade**. | 6 | 1 |
 | 5 | ⭐ Média | **Como gestor**, quero acompanhar tempos médios e desempenho mensal dos portos **para planejar recursos e otimizar processos**. | 5 | 1 |
 | 6 | 🔥 Alta | **Como responsável por relatórios**, quero detalhar metodologia, glossário e análises **para documentar processos e decisões**. | 14 | 2 |
