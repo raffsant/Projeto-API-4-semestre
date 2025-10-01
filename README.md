@@ -54,8 +54,6 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 
 # 📦 Backlog do Produto 
 
-# Backlog do Projeto - User Stories
-
 ## Sprint 1 - Coleta e Planejamento
 | ID | Prioridade | User Story | Estimativa (h) |
 |----|-----------|------------|----------------|
