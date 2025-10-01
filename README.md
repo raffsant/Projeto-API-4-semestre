@@ -77,7 +77,6 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 - [ ] Calcular tempos médios de operação portuária.  
 - [ ] Criar dashboard inicial no Power BI com visão geral de portos, cargas e operações.  
 - [ ] Incluir filtros (período e tipo de carga) e ranking de eficiência dos portos.  
-- [ ] Ajustar layout para diferentes dispositivos (notebook, tablet e celular).  
 - [ ] Validar visualizações com stakeholders e comparar desempenho mensal dos portos.  
 
 
