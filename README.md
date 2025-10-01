@@ -54,21 +54,22 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 
 # 📦 Backlog do Produto 
 
-| Rank | Prioridade | User Story | Estimativa | Sprint |
-|------|------------|------------|------------|--------|
-| 1 | 🔥 Alta | **Como analista de dados**, quero acessar, limpar e padronizar os dados da ANTAQ **para iniciar análise consistente da eficiência portuária**. | 6 | 1 |
-| 2 | 🔥 Alta | **Como analista de dados, quero baixar e integrar dados de atracação e carga para consolidar informações relevantes da operação portuária.**. | 6 | 1 |
-| 3 | 🔥 Alta | *Como analista de dados, quero filtrar registros relevantes para a análise a fim de garantir que apenas dados úteis sejam utilizados.**. | 8 | 1 |
-| 4 | 🔥 Alta | **Como analista de dados**, quero criar dashboards no Power BI com filtros e rankings de portos **para apoiar decisões estratégicas**. | 10 | 1 |
-| 5| 🔥 Alta | **Como analista de dados, quero aplicar filtragem específica da carga de soja para realizar análises direcionadas sobre esse tipo de mercadoria.**. | 10 | 1 |
-| 4 | ⭐ Média | **Como analista**, quero testar dashboards em diferentes dispositivos e ajustar layouts **para garantir responsividade**. | 6 | 1 |
-| 5 | ⭐ Média | **Como gestor**, quero acompanhar tempos médios e desempenho mensal dos portos **para planejar recursos e otimizar processos**. | 5 | 1 |
-| 6 | 🔥 Alta | **Como responsável por relatórios**, quero detalhar metodologia, glossário e análises **para documentar processos e decisões**. | 14 | 2 |
-| 7 | 🔥 Alta | **Como responsável por versionamento**, quero criar repositório, organizar branches e atualizar scripts **para controlar versões e pendências**. | 12 | 2 |
-| 8 | 🔥 Alta | **Como gestor**, quero coletar feedback e revisar entregas **para garantir qualidade antes da apresentação**. | 8 | 2 |
-| 9 | 🔥 Alta | **Como equipe de apresentações**, quero criar templates, slides iniciais, storyboard e slides finais **para preparar a apresentação oficial**. | 18 | 3 |
-| 10 | 🔥 Alta | **Como equipe de apresentações**, quero ensaiar apresentação e preparar roteiro **para garantir impacto e organização**. | 12 | 3 |
-| 11 | 🔥 Alta | **Como analista de dados**, quero calcular métricas extras, acompanhar evolução de indicadores e registrar insights **para apoiar decisões futuras**. | 12 | 3 |
+| Rank | Prioridade | User Story                                                                                                                                            | Estimativa | Sprint |
+| ---- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------ |
+| 1    | 🔥 Alta    | **Como analista de dados**, quero baixar e integrar dados de atracação e carga **para consolidar as informações portuárias em uma única base.**       | 5          | 1      |
+| 2    | 🔥 Alta    | **Como analista de dados**, quero filtrar registros relevantes para a análise **a fim de trabalhar apenas com informações úteis.**                    | 3          | 1      |
+| 3    | 🔥 Alta    | **Como analista de dados**, quero aplicar filtragem da carga de soja **para realizar análises específicas desse produto.**                            | 3          | 1      |
+| 4    | 🔥 Alta    | **Como analista de dados**, quero limpar, normalizar e estruturar os dados **para garantir consistência e qualidade.**                                | 8          | 1      |
+| 5    | ⭐ Média    | **Como analista de dados**, quero documentar o código em Python **para facilitar manutenções e reaproveitamento futuro.**                             | 5          | 1      |
+| 6    | ⭐ Média    | **Como analista de dados**, quero publicar os avanços no GitHub **para versionar o trabalho e compartilhar com a equipe.**                            | 3          | 1      |
+| 7    | 🔥 Alta    | **Como analista de dados**, quero gerar relatórios **para comunicar os resultados da análise de forma clara.**                                        | 8          | 1      |
+| 8    | 🔥 Alta    | **Como responsável por relatórios**, quero detalhar metodologia, glossário e análises **para documentar processos e decisões.**                       | 14         | 2      |
+| 9    | 🔥 Alta    | **Como responsável por versionamento**, quero criar repositório, organizar branches e atualizar scripts **para controlar versões e pendências.**      | 12         | 2      |
+| 10   | 🔥 Alta    | **Como gestor**, quero coletar feedback e revisar entregas **para garantir qualidade antes da apresentação.**                                         | 8          | 2      |
+| 11   | 🔥 Alta    | **Como equipe de apresentações**, quero criar templates, slides iniciais, storyboard e slides finais **para preparar a apresentação oficial.**        | 18         | 3      |
+| 12   | 🔥 Alta    | **Como equipe de apresentações**, quero ensaiar apresentação e preparar roteiro **para garantir impacto e organização.**                              | 12         | 3      |
+| 13   | 🔥 Alta    | **Como analista de dados**, quero calcular métricas extras, acompanhar evolução de indicadores e registrar insights **para apoiar decisões futuras.** | 12         | 3      |
+
 
 
 
