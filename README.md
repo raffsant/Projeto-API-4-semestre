@@ -54,34 +54,33 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 
 # 📦 Backlog do Produto 
 
-# Backlog Unificado
-
 | ID | Prioridade | User Story | Estimativa  | Sprint |
 |----|------------|------------|-----------------|---------|
-| 1  |  Alta | Como analista de dados, quero baixar e integrar dados de simulação e carga para consolidar as informações pertinentes em uma única base | 8 | 1 |
-| 2  |  Alta | Como analista de dados, quero filtrar registros relevantes para a análise a fim de trabalhar apenas com dados consistentes | 5 |  1 |
-| 3  |  Alta | Como analista de dados, quero aplicar filtros em carga de exportação para realizar análises específicas | 3 | 1 |
-| 4  |  Média | Como analista de dados, quero limpar, normalizar e estruturar os dados para garantir consistência e qualidade | 8 |  1 |
-| 5  |  Média | Como analista de dados, quero documentar o código em Python para facilitar manutenções e reaproveitamento futuro | 5 |  1 |
-| 6  |  Baixa | Como analista de dados, quero publicar os recursos no GitHub para validar e compartilhar o trabalho realizado | 3 | 1 |
-| 7  |  Alta | Como analista de dados, quero gerar relatórios para comunicar os resultados da análise de forma clara | 5 |  1 |
-| 8  |  Alta | Como analista de dados, quero aplicar cálculos de eficiência das terminais para identificar os pontos de força e fraqueza | 10 |  2 |
-| 9  |  Alta | Como analista de dados, quero criar ranking dos top 10 terminais para facilitar decisões estratégicas | 8 |  2 |
-| 10 |  Média | Como analista de dados, quero identificar tempos médios de operação por terminal para medir eficiência | 5 |  2 |
-| 11 |  Alta | Como analista de dados, quero visualizar pontos mais ágeis e os críticos com maior espera para planejamento estratégico | 13 | 2 |
-| 12 |  Baixa | Como analista de dados, quero estimar tempo médio de operação de carga por porto para avaliar performance global | 3 | 2 |
-| 13 |  Alta | Como analista de dados, quero analisar movimentações regionais para facilitar acompanhamento de performance | 8 |  2 |
-| 14 |  Média | Como analista de dados, quero relacionar tempos de operação com fatores externos (clima, feriados) para refinar análises | 8 |  2 |
-| 15 |  Baixa | Como analista de dados, quero calcular taxa de participação por porto para identificar portos mais representativos | 5 |  2 |
-| 16 |  Alta | Como analista de dados, quero gerar gráficos para comunicar resultados da análise de eficiência e produtividade | 8 |  2 |
-| 17 |  Alta | Como analista de dados, quero calcular indicador de eficiência (toneladas x tempo) para medir a performance global | 8 |  3 |
-| 18 |  Alta | Como analista de dados, quero filtrar por terminal e período para avaliar demanda e capacidade | 6 |  3 |
-| 19 |  Média | Como analista de dados, quero filtrar por terminal e tempo para análises comparativas de desempenho | 6 | 3 |
-| 20 |  Alta | Como analista de dados, quero visualizar rankings para identificar regiões/portos de maior eficiência | 10 |  3 |
-| 21 |  Média | Como analista de dados, quero adicionar cálculo de produtividade dos terminais (toneladas/hora) para análises detalhadas | 8 |  3 |
-| 22 |  Baixa | Como analista de dados, quero desenvolver visualização de dados em gráficos para comunicação de resultados | 5 |  3 |
-| 23 |  Alta | Como analista de dados, quero gerar dashboards interativos que permitam explorar os dados de movimentação e eficiência | 13 |  3 |
-| 24 |  Média | Como analista de dados, quero gerar relatórios para consolidar insights de movimentação e eficiência | 8 |  3 |
+| 1  | Alta | Como analista de dados, quero baixar e integrar dados de simulação e carga para consolidar as informações pertinentes em uma única base | 8 | 1 |
+| 2  | Alta | Como gerente de planejamento, quero filtrar registros relevantes para a análise a fim de trabalhar apenas com dados consistentes | 5 | 1 |
+| 3  | Alta | Como analista de dados, quero aplicar filtros em carga de exportação para realizar análises específicas | 3 | 1 |
+| 4  | Média | Como supervisor de operações, quero limpar, normalizar e estruturar os dados para garantir consistência e qualidade | 8 | 1 |
+| 5  | Média | Como coordenador de planejamento, quero documentar o código em Python para facilitar manutenções e reaproveitamento futuro | 5 | 1 |
+| 6  | Baixa | Como analista de dados, quero publicar os recursos no GitHub para validar e compartilhar o trabalho realizado | 3 | 1 |
+| 7  | Alta | Como gerente de planejamento, quero gerar relatórios para comunicar os resultados da análise de forma clara | 5 | 1 |
+| 8  | Alta | Como analista de dados, quero aplicar cálculos de eficiência dos terminais para identificar os pontos de força e fraqueza | 10 | 2 |
+| 9  | Alta | Como supervisor de operações, quero criar ranking dos top 10 terminais para facilitar decisões estratégicas | 8 | 2 |
+| 10 | Média | Como coordenador de planejamento, quero identificar tempos médios de operação por terminal para medir eficiência | 5 | 2 |
+| 11 | Alta | Como especialista em logística, quero visualizar pontos mais ágeis e os críticos com maior espera para planejamento estratégico | 13 | 2 |
+| 12 | Baixa | Como analista de dados, quero estimar tempo médio de operação de carga por porto para avaliar performance global | 3 | 2 |
+| 13 | Alta | Como gerente de planejamento, quero analisar movimentações regionais para facilitar acompanhamento de performance | 8 | 2 |
+| 14 | Média | Como supervisor de operações, quero relacionar tempos de operação com fatores externos (clima, feriados) para refinar análises | 8 | 2 |
+| 15 | Baixa | Como analista de dados, quero calcular taxa de participação por porto para identificar portos mais representativos | 5 | 2 |
+| 16 | Alta | Como coordenador de planejamento, quero gerar gráficos para comunicar resultados da análise de eficiência e produtividade | 8 | 2 |
+| 17 | Alta | Como especialista em logística, quero calcular indicador de eficiência (toneladas x tempo) para medir a performance global | 8 | 3 |
+| 18 | Alta | Como gerente de planejamento, quero filtrar por terminal e período para avaliar demanda e capacidade | 6 | 3 |
+| 19 | Média | Como analista de dados, quero filtrar por terminal e tempo para análises comparativas de desempenho | 6 | 3 |
+| 20 | Alta | Como supervisor de operações, quero visualizar rankings para identificar regiões/portos de maior eficiência | 10 | 3 |
+| 21 | Média | Como coordenador de planejamento, quero adicionar cálculo de produtividade dos terminais (toneladas/hora) para análises detalhadas | 8 | 3 |
+| 22 | Baixa | Como analista de dados, quero desenvolver visualização de dados em gráficos para comunicação de resultados | 5 | 3 |
+| 23 | Alta | Como gerente de planejamento, quero gerar dashboards interativos que permitam explorar os dados de movimentação e eficiência | 13 | 3 |
+| 24 | Média | Como supervisor de operações, quero gerar relatórios para consolidar insights de movimentação e eficiência | 8 | 3 |
+
 
 
 
