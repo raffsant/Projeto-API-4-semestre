@@ -1,0 +1,39 @@
+🧩 MVP – Sprint 1
+🎯 Objetivo do MVP
+
+O MVP tem como objetivo central integrar, limpar e consolidar dados de simulação e carga, permitindo análises consistentes e geração de relatórios estratégicos para as equipes de planejamento e operações.
+A hipótese a ser validada é que, ao centralizar e tratar os dados em uma única base confiável, os analistas e gestores poderão tomar decisões mais rápidas e assertivas, reduzindo retrabalho e aumentando a confiabilidade das informações.
+
+O valor entregue ao usuário final é a disponibilização de um ambiente analítico automatizado, com dados integrados, filtrados e prontos para exploração em relatórios e dashboards, promovendo eficiência operacional e suporte à decisão.
+
+📝 Descrição da Solução
+
+Será desenvolvido um pipeline de dados em Python, que permitirá:
+
+Download automático e integração de dados de simulação e carga;
+
+Limpeza, normalização e estruturação das informações para garantir consistência;
+
+Aplicação de filtros personalizados voltados às análises específicas de exportação;
+
+Documentação completa do código para manutenção e reaproveitamento futuro;
+
+Geração de relatórios automatizados que consolidem resultados de forma visual e compreensível;
+
+Publicação dos recursos no GitHub, garantindo rastreabilidade e colaboração da equipe.
+
+O foco inicial será validar a eficiência do fluxo de integração e tratamento dos dados, além da clareza dos relatórios gerados.
+
+⚙️ Funcionalidades Principais Incluídas
+
+Integração e download de dados de simulação e carga;
+
+Limpeza e normalização de dados (remoção de duplicados, tratamento de nulos e padronização de formatos);
+
+Aplicação de filtros para análises específicas de exportação e planejamento;
+
+Geração de relatórios consolidados com indicadores-chave;
+
+Documentação técnica do código em Python (notebooks e scripts comentados);
+
+Publicação do repositório no GitHub para versionamento e validação colaborativa.
