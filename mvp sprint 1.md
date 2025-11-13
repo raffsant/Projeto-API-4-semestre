@@ -1,50 +1,61 @@
-#  MVP - Sprint 1 📌
+# MVP - Sprint 1 📌
 
 ## Objetivo do MVP 🎯
+O MVP busca resolver a necessidade de **integração, limpeza e análise eficiente dos dados de simulação e carga**, consolidando as informações relevantes em uma única base.  
+A hipótese a ser validada é que, ao centralizar e padronizar os dados, será possível **melhorar a qualidade das análises, reduzir retrabalho e apoiar decisões estratégicas** com maior confiabilidade.  
+Como valor entregue, a solução proporcionará **filtragem avançada, relatórios claros e base de dados consistente** para as equipes de planejamento e operações.
 
-O MVP busca resolver a necessidade de acesso, limpeza e análise eficiente dos dados da ANTAQ, oferecendo uma visão clara sobre o desempenho dos portos e operações logísticas. A hipótese a ser validada é que, ao centralizar e analisar esses dados, será possível identificar portos mais produtivos, otimizar processos logísticos e apoiar decisões estratégicas baseadas em informações precisas. Como valor entregue ao usuário final, a solução disponibilizará dashboards interativos e customizáveis, com filtros avançados e métricas de desempenho, possibilitando decisões mais rápidas, fundamentadas e ajustes operacionais em tempo real.
+---
 
-## Descrição da Solução 📝 
+## Descrição da Solução 📝
+Será desenvolvido um **MVP de análise de dados em Python**, com funcionalidades para **baixar, integrar, limpar e filtrar** dados de simulação e carga.  
+O objetivo é validar a eficiência da consolidação das informações e a **geração automatizada de relatórios**, atendendo às necessidades de analistas, supervisores e gestores de planejamento.
 
-Será desenvolvido um MVP de análise de dados que permite o acesso à base de dados da ANTAQ, com funcionalidades para normalizar e limpar os dados, calcular métricas de desempenho portuário e criar dashboards interativos no Power BI. O objetivo é validar a eficiência dos dashboards e ferramentas analíticas para usuários finais como analistas de dados, coordenadores de operações e gestores de logística.
+---
 
-### Funcionalidades principais incluídas
-- Acesso e download de dados da ANTAQ via Colab.
-- Normalização e limpeza de dados (remoção de duplicados e nulos).
-- Cálculo de tempos médios de operação portuária.
-- Criação de dashboards no Power BI com métricas de desempenho.
-- Filtros avançados para personalização das análises.
-- Painéis interativos com ranking de eficiência dos portos.
-- Ajuste de layouts para versão mobile e diferentes resoluções de tela.
+## Funcionalidades Principais Incluídas
+- Download e integração de dados de simulação e carga;  
+- Limpeza e normalização das bases (remoção de duplicados e nulos);  
+- Aplicação de filtros personalizados para análises específicas;  
+- Geração de relatórios consolidados;  
+- Documentação do código em Python;  
+- Publicação do projeto no GitHub.
 
-### Limitações conhecidas
-- A quantidade de dados pode afetar a performance do sistema se não for bem otimizada.
-- O acesso aos dados da ANTAQ pode ser limitado por questões de atualização e disponibilidade.
-- A personalização do dashboard para diferentes dispositivos pode exigir ajustes adicionais após feedback.
+---
 
-### Escopo reduzido
-O escopo inicial inclui a implementação da integração com a ANTAQ, normalização dos dados, cálculo das métricas principais e a criação de dashboards básicos com filtros essenciais.
+## Limitações Conhecidas
+- O volume e formato dos dados podem impactar a performance inicial;  
+- Estruturas de dados diferentes podem exigir ajustes manuais;  
+- Visualizações interativas e dashboards avançados não estão incluídos nesta versão.
+
+---
+
+## Escopo Reduzido
+O escopo inicial contempla a **integração, limpeza e consolidação dos dados**, além da **geração de relatórios básicos**.  
+Funcionalidades adicionais, como dashboards interativos e automações, serão avaliadas em próximas sprints.
+
+---
 
 ## Personas / Usuários-Alvo 👥
+**Analista de Dados:** precisa consolidar e filtrar dados de forma rápida e confiável.  
+**Gerente de Planejamento:** busca relatórios claros e dados consistentes para tomada de decisão.  
+**Supervisor de Operações:** necessita garantir qualidade e padronização das bases utilizadas.
 
-### Persona 1: Analista de Dados
-- **Necessidades**: Acessar e limpar dados de forma rápida, construir dashboards informativos para análise de performance portuária.
-- **Dores atendidas**: Falta de automação no tratamento de dados, dificuldade em acessar dados em tempo real.
+---
 
-### Persona 2: Coordenador de Operações
-- **Necessidades**: Acompanhar a eficiência dos portos e identificar gargalos operacionais.
-- **Dores atendidas**: Dificuldade em comparar o desempenho dos portos, ineficiência na alocação de recursos.
+## User Stories (Backlog do MVP) 🔑
+1. Como analista de dados, quero baixar e integrar dados de simulação e carga para consolidar as informações em uma única base.  
+2. Como gerente de planejamento, quero filtrar registros relevantes para trabalhar apenas com dados consistentes.  
+3. Como analista de dados, quero aplicar filtros em carga de exportação para análises específicas.  
+4. Como supervisor de operações, quero limpar e normalizar os dados para garantir qualidade.  
+5. Como coordenador de planejamento, quero documentar o código em Python para facilitar manutenção.  
+6. Como analista de dados, quero publicar os recursos no GitHub para validação e compartilhamento.  
+7. Como gerente de planejamento, quero gerar relatórios claros para comunicar resultados da análise.
 
+---
 
-## User Stories (Backlog do MVP) 🔑 
+## Critérios de Aceitação 📊
+O MVP deve **integrar, limpar e consolidar dados de simulação e carga**, permitindo a aplicação de **filtros e geração de relatórios confiáveis**.  
+O código deve estar **documentado e versionado no GitHub**, garantindo rastreabilidade, reprodutibilidade e transparência no processo analítico.
 
-<img src="https://github.com/anacarolinae/Projeto-API-4-Semestre-Logistica/blob/main/Imagens/Backlog%20Sprint%20I.jpg" width="1500">
-
-## Critérios de Aceitação  📊 
-
-O MVP deve permitir que o usuário acesse e baixe dados atualizados da ANTAQ, realize a normalização e limpeza da base de dados com eficiência e obtenha insights sobre a eficiência portuária por meio de dashboards interativos e filtros avançados. Além disso, o sistema registrará o tempo médio de operação por porto, a quantidade de dados processados e eventuais falhas, enquanto as métricas coletadas incluirão o tempo de resposta nas consultas, a taxa de uso dos dashboards e o feedback qualitativo dos usuários finais, como analistas, coordenadores e gestores.
-
-## 📂 Anexos / Evidências
-
-![Gif Trium](https://github.com/anacarolinae/Projeto-API-4-Semestre-Logistica/blob/main/MVP/V%C3%ADdeos%20e%20Fotos/MVP%20Sprint%201.gif)
 
