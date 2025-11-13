@@ -121,7 +121,7 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 | Sprint | Previsão | Status | Histórico |
 |--------|----------|--------|-----------|
 | 01     | 02/10/2025 | Concluído | [MVP](https://github.com/raffsant/Projeto-API-4-semestre/blob/main/MVP%20IMAGENS/MVP%20SPRINT%20-%201.png) |
-| 02     | 24/10/2025 | A fazer | [MVP](https://github.com/raffsant/Projeto-API-4-semestre/blob/main/MVP%20IMAGENS/mvp%20sprint2.png) |
+| 02     | 24/10/2025 | Concluído | [MVP](https://github.com/raffsant/Projeto-API-4-semestre/blob/main/MVP%20IMAGENS/mvp%20sprint2.png) |
 | 03     | 14/11/2025 | A fazer | [MVP](https://) |
 | Feira de Soluções | 04/12/202 | A fazer | [MVP](https://) |
 
