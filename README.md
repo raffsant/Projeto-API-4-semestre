@@ -89,11 +89,11 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 
 ## Sprint 1 - Coleta e Planejamento 🚀
 - [✅] Baixar e integrar dados de atracação e carga  
-- [✅ ] Filtrar registros relevantes para a análise  
-- [✅ ] Filtragem da carga de soja  
-- [✅ ] Limpar, normalizar e estruturar os dados  
-- [✅ ] Documentar código Python para uso futuro  
-- [✅ ] Publicar avanços no GitHub  
+- [✅] Filtrar registros relevantes para a análise  
+- [✅] Filtragem da carga de soja  
+- [✅] Limpar, normalizar e estruturar os dados  
+- [✅] Documentar código Python para uso futuro  
+- [✅] Publicar avanços no GitHub  
 - [✅] Gerar relatório  
 
 ## Sprint 2 - Eficiência e tempos de operação ⚡
