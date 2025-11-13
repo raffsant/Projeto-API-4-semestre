@@ -1,39 +1,110 @@
-🧩 MVP – Sprint 1
-🎯 Objetivo do MVP
+# 🚀 MVP – Sprint 1
 
-O MVP tem como objetivo central integrar, limpar e consolidar dados de simulação e carga, permitindo análises consistentes e geração de relatórios estratégicos para as equipes de planejamento e operações.
-A hipótese a ser validada é que, ao centralizar e tratar os dados em uma única base confiável, os analistas e gestores poderão tomar decisões mais rápidas e assertivas, reduzindo retrabalho e aumentando a confiabilidade das informações.
+## 🎯 Objetivo do MVP  
+O MVP tem como objetivo central **integrar, limpar e consolidar dados de simulação e carga**, permitindo análises consistentes e geração de relatórios estratégicos para as equipes de **planejamento e operações**.  
 
-O valor entregue ao usuário final é a disponibilização de um ambiente analítico automatizado, com dados integrados, filtrados e prontos para exploração em relatórios e dashboards, promovendo eficiência operacional e suporte à decisão.
+A hipótese a ser validada é que, ao centralizar e tratar os dados em uma única base confiável, os analistas e gestores poderão **tomar decisões mais rápidas e assertivas**, reduzindo retrabalho e aumentando a confiabilidade das informações.  
 
-📝 Descrição da Solução
+O valor entregue ao usuário final é a disponibilização de um **ambiente analítico automatizado**, com dados integrados, filtrados e prontos para exploração em relatórios e dashboards, promovendo **eficiência operacional e suporte à decisão**.
 
-Será desenvolvido um pipeline de dados em Python, que permitirá:
+---
 
-Download automático e integração de dados de simulação e carga;
-
-Limpeza, normalização e estruturação das informações para garantir consistência;
-
-Aplicação de filtros personalizados voltados às análises específicas de exportação;
-
-Documentação completa do código para manutenção e reaproveitamento futuro;
-
-Geração de relatórios automatizados que consolidem resultados de forma visual e compreensível;
-
-Publicação dos recursos no GitHub, garantindo rastreabilidade e colaboração da equipe.
+## 📝 Descrição da Solução  
+Será desenvolvido um **pipeline de dados em Python**, que permitirá:  
+- **Download automático e integração** de dados de simulação e carga;  
+- **Limpeza, normalização e estruturação** das informações para garantir consistência;  
+- Aplicação de **filtros personalizados** voltados às análises específicas de exportação;  
+- **Documentação completa do código** para manutenção e reaproveitamento futuro;  
+- **Geração de relatórios automatizados** que consolidem resultados de forma visual e compreensível;  
+- **Publicação dos recursos no GitHub**, garantindo rastreabilidade e colaboração da equipe.  
 
 O foco inicial será validar a eficiência do fluxo de integração e tratamento dos dados, além da clareza dos relatórios gerados.
 
-⚙️ Funcionalidades Principais Incluídas
+---
 
-Integração e download de dados de simulação e carga;
+## ⚙️ Funcionalidades Principais Incluídas  
+- Integração e download de dados de simulação e carga;  
+- Limpeza e normalização de dados (remoção de duplicados, tratamento de nulos e padronização de formatos);  
+- Aplicação de filtros para análises específicas de exportação e planejamento;  
+- Geração de relatórios consolidados com indicadores-chave;  
+- Documentação técnica do código em Python (notebooks e scripts comentados);  
+- Publicação do repositório no GitHub para versionamento e validação colaborativa.
 
-Limpeza e normalização de dados (remoção de duplicados, tratamento de nulos e padronização de formatos);
+---
 
-Aplicação de filtros para análises específicas de exportação e planejamento;
+## ⚠️ Limitações Conhecidas  
+- A **quantidade e complexidade dos dados** podem impactar a performance inicial do pipeline;  
+- A **estrutura e nomenclatura** das fontes de dados podem exigir ajustes manuais durante a integração;  
+- A **versão inicial dos relatórios** terá visualização básica, podendo ser aprimorada em iterações futuras.
 
-Geração de relatórios consolidados com indicadores-chave;
+---
 
-Documentação técnica do código em Python (notebooks e scripts comentados);
+## 📉 Escopo Reduzido (Versão MVP)  
+O MVP contemplará:  
+- A integração e limpeza básica dos dados;  
+- A criação de uma base única consolidada;  
+- A aplicação de filtros essenciais;  
+- A geração de relatórios padronizados com métricas principais.  
 
-Publicação do repositório no GitHub para versionamento e validação colaborativa.
+Não estão incluídos nesta versão: dashboards interativos, automação completa de rotinas ou análises preditivas.
+
+---
+
+## 👥 Personas / Usuários-Alvo  
+
+**Persona 1: Analista de Dados**  
+- **Necessidades:** integrar e tratar dados de simulação e carga, aplicar filtros e gerar análises específicas.  
+- **Dores atendidas:** dificuldade em consolidar dados dispersos, alto tempo de preparação e tratamento manual das bases.  
+
+**Persona 2: Gerente de Planejamento**  
+- **Necessidades:** filtrar e trabalhar apenas com dados consistentes, gerar relatórios claros para tomada de decisão.  
+- **Dores atendidas:** excesso de dados irrelevantes e falta de visibilidade consolidada dos resultados.  
+
+**Persona 3: Supervisor de Operações**  
+- **Necessidades:** garantir qualidade e consistência dos dados utilizados nas análises operacionais.  
+- **Dores atendidas:** inconsistência entre fontes e retrabalho na verificação das informações.  
+
+---
+
+## 🔑 User Stories (Backlog do MVP)
+
+| Prioridade | User Story | Pontos | Status |
+|-------------|-------------|--------|--------|
+| Alta | Como analista de dados, quero baixar e integrar dados de simulação e carga para consolidar as informações em uma única base | 8 | Planejado |
+| Alta | Como gerente de planejamento, quero filtrar registros relevantes para a análise a fim de trabalhar apenas com dados consistentes | 5 | Planejado |
+| Alta | Como analista de dados, quero aplicar filtros em carga de exportação para realizar análises específicas | 3 | Planejado |
+| Média | Como supervisor de operações, quero limpar, normalizar e estruturar os dados para garantir consistência e qualidade | 8 | Planejado |
+| Média | Como coordenador de planejamento, quero documentar o código em Python para facilitar manutenções e reaproveitamento futuro | 5 | Planejado |
+| Baixa | Como analista de dados, quero publicar os recursos no GitHub para validar e compartilhar o trabalho realizado | 3 | Planejado |
+| Alta | Como gerente de planejamento, quero gerar relatórios para comunicar os resultados da análise de forma clara | 5 | Planejado |
+
+---
+
+## 📊 Critérios de Aceitação  
+- O sistema deve **baixar e consolidar** corretamente os dados de simulação e carga em uma única base;  
+- Os dados devem passar por **limpeza, normalização e estruturação**, eliminando inconsistências;  
+- Deve ser possível **aplicar filtros personalizados** e gerar **relatórios automáticos**;  
+- O código deve estar **documentado e versionado no GitHub**;  
+- A performance e integridade da base serão avaliadas por métricas de tempo de processamento, volume de dados processados e feedback qualitativo dos usuários finais.  
+
+---
+
+📅 **Próximos Passos (Sprints Futuras)**  
+- **Sprint 2:** Automação do pipeline de integração e limpeza;  
+- **Sprint 3:** Implementação de relatórios avançados e dashboards interativos;  
+- **Sprint 4:** Otimização de performance e documentação final.  
+
+---
+
+📚 **Stack Principal:**  
+Python | Pandas | Power BI | GitHub | Jupyter Notebook
+
+---
+
+🧠 **Equipe:**  
+- Analista de Dados  
+- Coordenador de Planejamento  
+- Gerente de Planejamento  
+- Supervisor de Operações  
+
+---
