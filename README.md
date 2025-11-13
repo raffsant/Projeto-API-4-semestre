@@ -97,14 +97,13 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 - [✅] Gerar relatório  
 
 ## Sprint 2 - Eficiência e tempos de operação ⚡
-- [ ] Avaliar produtividade dos terminais  
-- [ ] Criar ranking dos top 10 terminais  
-- [ ] Identificar tempo médio de operação por terminal  
-- [ ] Visualizar portos mais ágeis e portos com maior espera  
-- [ ] Movimentação mensal por terminal  
-- [ ] Volume de transporte por porto  
-- [ ] Identificar os principais portos que movimentam soja  
-- [ ] Gerar relatório  
+- [✅] Avaliar produtividade dos terminais  
+- [✅] Identificar tempo médio de operação por terminal  
+- [✅] Visualizar portos mais ágeis e portos com maior espera  
+- [✅] Movimentação mensal por terminal  
+- [✅] Volume de transporte por porto  
+- [✅] Identificar os principais portos que movimentam soja  
+- [✅] Gerar relatório  
 
 ## Sprint 3 - Movimentação e Análise de Carga 📊
 - [ ] Calcular indicador de eficiência (infraestrutura x carga)  
