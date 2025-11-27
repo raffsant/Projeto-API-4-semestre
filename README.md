@@ -106,14 +106,14 @@ Disponibilizar painéis visuais interativos que ofereçam insights estratégicos
 - [✅] Gerar relatório  
 
 ## Sprint 3 - Movimentação e Análise de Carga 📊
-- [ ] Calcular indicador de eficiência (infraestrutura x carga)  
-- [ ] Filtrar por terminal e período  
-- [ ] Implementar buscas e filtros personalizados  
-- [ ] Filtrar por terminal e tempo  
-- [ ] Visualizar ranking  
-- [ ] Desenvolver visualizações de eficiência portuária e operação  
-- [ ] Criar interface intuitiva  
-- [ ] Gerar relatório  
+- [✅] Calcular indicador de eficiência (infraestrutura x carga)  
+- [✅] Filtrar por terminal e período  
+- [✅] Implementar buscas e filtros personalizados  
+- [✅] Filtrar por terminal e tempo  
+- [✅] Visualizar ranking  
+- [✅] Desenvolver visualizações de eficiência portuária e operação  
+- [✅] Criar interface intuitiva  
+- [✅] Gerar relatório  
 
 
 # Registro das Sprints
